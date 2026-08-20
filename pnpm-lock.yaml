@@ -1,0 +1,21 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  apps/desktop: {}
+
+  packages/ai: {}
+
+  packages/printer: {}
+
+  packages/project-format: {}
+
+  packages/shared: {}
+
+  packages/slicer: {}

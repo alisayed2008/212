@@ -1,0 +1,1 @@
+export interface SlicerAdapter { id: string; displayName: string; prepare(input: unknown): Promise<{ outputUri: string; outputFormat: 'gcode' | '3mf'; warnings: string[] }>; estimate(input: unknown): Promise<{ estimatedDurationSeconds?: number; estimatedFilamentGrams?: number; estimatedCost?: number }>; }

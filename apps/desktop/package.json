@@ -1,0 +1,13 @@
+{
+  "name": "@printai/desktop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc -b",
+    "lint": "node scripts/lint.mjs",
+    "test": "node --test"
+  }
+}

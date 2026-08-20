@@ -1,0 +1,17 @@
+{
+  "name": "printai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PrintAI monorepo foundation for a premium image-to-3D-print desktop workflow.",
+  "scripts": {
+    "dev": "pnpm --filter @printai/desktop dev",
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test"
+  },
+  "packageManager": "pnpm@10.28.1",
+  "engines": {
+    "node": ">=20"
+  }
+}
